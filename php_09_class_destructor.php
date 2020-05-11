@@ -2,7 +2,7 @@
 
 class Greeting
 {
-    
+
     public function __construct(){
         echo "I am constructor of magic method and start Working!! <br><hr>";
     }
@@ -16,7 +16,7 @@ class Greeting
     }
 }
 
-$greet = new Greeting();
+$greet = new Greeting;
 echo $greet->sayHello('Hey My Friend!!', 1);
 echo $greet->sayHello('Hi  Sandra!!', 2);
 echo $greet->sayHello('How are today?', 1);

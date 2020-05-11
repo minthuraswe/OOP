@@ -7,7 +7,7 @@ class Laptop
     }
 }
 
-$con = new Laptop();
+$con = new Laptop;
 
 
 class Animal
