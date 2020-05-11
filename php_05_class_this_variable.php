@@ -3,6 +3,8 @@
 class Laptop
 {
     public $name = "Acer";
+    public $ram = "4 GB";
+    public $cpu = "core i3";
 
     public function reName(){
         $this->name =  "Lenovo";
@@ -21,6 +23,8 @@ echo 'Model = ' . $dell->cpu . '<br><hr>';
 class Animal
 {
     public $type = "Dog";
+    public $color = "black";
+    public $behavior = "Barking";
 
     public function reName(){
         $this->type = "Cat";
@@ -39,6 +43,8 @@ echo 'Behavior = ' . $cat->behavior . '<br><hr>';
 class Fruit
 {
     public $name = "apple";
+    public $color = "Red";
+    public $taste = "sour";
 
     public function reName(){
         $this->name = "pineapple";
