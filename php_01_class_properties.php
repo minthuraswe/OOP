@@ -4,13 +4,13 @@ class Laptop
 {
     var $name = "Dell";
     var $ram = "8 GB";
-    var $model = "core i5";
+    var $cpu = "core i5";
 }
 
 $dell = new Laptop;
 echo 'Name = ' .$dell->name . '<br>';
 echo 'Ram = ' .$dell->ram . '<br>';
-echo 'Model = ' .$dell->model . '<br><hr>'; 
+echo 'Model = ' .$dell->cpu . '<br><hr>'; 
 
 
 class Animal

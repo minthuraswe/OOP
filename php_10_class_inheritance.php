@@ -4,7 +4,7 @@ class Laptop
 {
     public $name = 'Acer';
     public $ram = '4 GB';
-    public $model = 'core i3';
+    public $cpu = 'core i3';
 }
 
 class Acer extends Laptop
@@ -15,7 +15,7 @@ class Acer extends Laptop
 $acer = new Acer;
 echo 'Name = ' . $acer->name . '<br>';
 echo 'Ram = ' . $acer->ram . '<br>';
-echo 'Model = ' . $acer->model . '<br><hr>';
+echo 'Model = ' . $acer->cpu . '<br><hr>';
 
 
 class Animal

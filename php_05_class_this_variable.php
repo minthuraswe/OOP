@@ -7,7 +7,7 @@ class Laptop
     public function reName(){
         $this->name =  "Lenovo";
         $this->ram = "8 GB";
-        $this->model = "core i5";
+        $this->cpu = "core i5";
     }
 }
 
@@ -15,7 +15,7 @@ $dell = new Laptop;
 echo $dell->reName();
 echo 'Name = ' . $dell->name . '<br>';
 echo 'Ram = ' . $dell->ram . '<br>';
-echo 'Model = ' . $dell->model . '<br><hr>';
+echo 'Model = ' . $dell->cpu . '<br><hr>';
 
 
 class Animal

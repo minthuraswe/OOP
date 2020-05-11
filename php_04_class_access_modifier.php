@@ -4,13 +4,13 @@ class Laptop
 {
     public $name = "Acer";   //Anyone can access
     public $ram = "4 GB";
-    public $model = "core i3";
+    public $cpu = "core i3";
 }
 
 $acer = new Laptop;
 echo 'Name = ' . $acer->name . '<br>';
 echo 'Ram = ' . $acer->ram . '<br>';
-echo 'Model = ' . $acer->model . '<br><br>';
+echo 'Model = ' . $acer->cpu . '<br><br>';
 
 
 class Animal

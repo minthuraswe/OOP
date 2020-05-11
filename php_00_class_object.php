@@ -9,12 +9,12 @@ class Laptop
 $acer = new Laptop;
 $acer->name = "Aspire E 14";
 $acer->ram = "4 GB";
-$acer->model = "core i3";
+$acer->cpu = "core i3";
 
 echo "<b>For Laptop Object</b>  <br>";
 echo 'Name = ' .$acer->name . '<br>';
 echo 'Ram = ' .$acer->ram . '<br>';
-echo 'Model = ' .$acer->model . '<br><hr>'; 
+echo 'Model = ' .$acer->cpu . '<br><hr>'; 
 
 
 class Animal
