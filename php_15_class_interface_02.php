@@ -4,11 +4,7 @@ interface index{
     public function indexPage($data);
 }
 
-interface contact{
-    public function indexPage($data);
-}
-
-class Develop implements index,contact{
+class Develop implements index{
 
     private $data;
 
